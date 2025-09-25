@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.mica.ejemplosimplejdbc.controller.AlumnoController"
+      spacing="10" alignment="CENTER" prefWidth="400" prefHeight="300">
+
+    <TableView fx:id="table" prefWidth="380" prefHeight="280">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="colNombre" text="Nombre" prefWidth="200"/>
+            <TableColumn fx:id="colEdad" text="Edad" prefWidth="100"/>
+            <TableColumn fx:id="colEmail" text="Email" prefWidth="100"/>
+            <TableColumn fx:id="colTelefono" text="Telefono" prefWidth="100"/>
+
+        </columns>
+    </TableView>
+
+</VBox>
